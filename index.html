@@ -5,8 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/course.js" defer></script>
+    <script src="scripts/getdate.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
 </head>
 <body>
-    <h1>WDD 231 - Luyinga</h1>
+    <header>
+        <img src="images/logo-img2.png"  alt="Site Logo">
+        <span>Course Home Page</span>
+        <button type="button" id="menu"></button> 
+        <nav class="nav-container">
+          <ul> 
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chamber/index.html">Chamber Project</a></li> 
+            <li><a href="week06/final-project.html">Final</a></li> 
+          </ul> 
+        </nav>
+    </header>
+    <main>
+        <h1>Home</h1>
+        <section class="sec1">
+            <h2>About Me</h2>
+            <p>Hello! My name is Luyinga Lumbale Leonard and I am from Kinshasa D.R.Congo I enjoy reading
+               and play football. I am actually living in Cape Town. I am married and have two children.
+               I am doing web design because I want to create responsive websites. I am a returned missionnary
+               I hope working in a company as a front-end developper in Cape Town. I like going out, my favorite 
+               food is chicken gatsby. I like to ride a bike, I like the gospel of Jesus-Christ because 
+               it shows me the way to go to our heavenly father because in john 3:16 Jesus said For God so loved 
+               the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, 
+               but have everlasting life.   </p>
+        </section>
+        <section class="sec2">
+            <h2>Student Photo</h2>
+            <img src="images/rsz_luhinga_2.jpg" alt="Student Photo">    
+        </section>
+        <section class="sec3">
+            <h2>Web Certificate Courses</h2>
+          <div class="courses">
+            <p>ALL</p>
+            <p>CSE</p>
+            <p>WDD</p>
+            <p>WDD130</p>
+            <p>WDD131</p>
+            <p>WDD231</p>
+          </di> 
+        </section>
+    </main>
+    <footer>
+        <p>The total credit listed above is 6</p>
+        <div class="social">
+            <img src="images/img-in.PNG" width="60" height="60" alt="LinkedIn Icon">
+            <img src="images/img-github.PNG" width="60" height="60" alt="GitHub Icon">
+            <img src="images/img-x.PNG" width="60" height="60" alt="X Icon">
+        </div>
+        <p>&copy;<span id="currentyear"></span>🤢Leonard Luyinga🤢 South Africa</p>
+        <p id="lastmodified"></p>
+    </footer>
 </body>
 </html>
