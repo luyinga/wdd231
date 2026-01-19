@@ -1,0 +1,79 @@
+[
+    {
+        "Name":  "Nestle",
+        "Industry": "Coffee and tea manufacturing",
+        "Physical Address": "España Tower C, piso Mezzanine, Panama",
+        "Website": "www.nestle-esar.com",
+        "Phone": "2656490",
+        "Representative": "Adviel Centeno / Director of Legal and Regulatory Affairs",
+        "MemberSince": "05/01/2012",
+        "Membership": "Bronze",
+        "logo":  "https://top500.co.za/wp-content/uploads/2023/09/Untitled-design-46.png"
+    },
+    {
+        "Name": "FAIR CAPÉ",
+        "Industry": "Manufacturing and Distribution",
+        "Physical Address": "Oficina 301, Dorado City Center, Ave. Ricardo J. Alfaro",
+        "Website": "https://www.elitepowertrade.co.za/wp-content/uploads/2020/09/logo.png",
+        "Phone": "6030 7922",
+        "Representative": "Glenn Tjon  / Innovation Strategist and Scale-Up Coach",
+        "MemberSince": "11/01/2022",
+        "Membership": "Silver",
+        "logo": "https://www.faircape.com/wp-content/themes/Faircape_Pasture-theme/img/logo.png"
+    },
+    {
+        "Name": "ACTOM",
+        "Industry": "Manufacturing",
+        "Physical Address": "Área Panamá Pacifico, Arraiján, Panamerica Corporate Center Norte, Street C Final | Building 9116",
+        "Website": "https://www.3m.com.pa/3M/es_PA/inicio/",
+        "Phone": "378-9169 / 378-9100",
+        "Representative": "Israel Meza / Site Manager ;Fernando Pellicano / LATAM Plant Operations Director- SEM",
+        "MemberSince": "11/01/2016",
+        "Membership": "Gold",
+        "logo": "https://top500.co.za/wp-content/uploads/2016/10/actom_logo-1-300x300.jpg"
+    },
+    {
+        "Name": "AFROX",
+        "Industry": "Distribution, Representations and Sales",
+        "Physical Address": "Nicanor A. de Obarrio Ave., F&F Tower, 12 Floor, Office 12 C",
+        "Website": "https://4emagic.com/",
+        "Phone": "396-4000",
+        "Representative": "Enrique Arturo de Obarrio / President & CEO",
+        "MemberSince": "05/01/2014",
+        "Membership": "Bronze",
+        "logo": "https://top500.co.za/wp-content/uploads/2017/01/afrox_logo-300x300.jpg"
+    },
+    {
+        "Name": "SMEC",
+        "Industry": "Transportation & Logistics",
+        "Physical Address": "Torre de las Américas, Planta baja.",
+        "Website": "https://www.aireuropa.com",
+        "Phone": "382-3291 / 382-3292",
+        "Representative": "Carlos Conde / Country Manager para Panamá",
+        "MemberSince": "05/02/2019",
+        "Membership": "Silver",
+        "logo": "https://top500.co.za/wp-content/uploads/2020/04/Smec-300x300.jpg"
+    },
+    {
+        "Name": "VOX",
+        "Industry": "Energy",
+        "Physical Address": "Costa del Este, Edificio Financial Park, Piso 19 of B.",
+        "Website": "https://new.abb.com/central-america-caribbean",
+        "Phone": "N/A",
+        "Representative": "Gabriela Gonzalez / CFM",
+        "MemberSince": "12/01/2020",
+        "Membership": "Gold",
+        "logo": "https://top500.co.za/wp-content/uploads/2019/07/vox_logo-300x300.jpg"
+    },
+    {
+        "Name": "ALTRON",
+        "Industry": "Health, Medicine, Pharmacy",
+        "Physical Address": "Transistmica, Urbanización Industrial Orilla, Edificio Reprico, Piso no. 2",
+        "Website": "https://www.abbott.com/",
+        "Phone": "229-1086 / 229-5574",
+        "Representative": "Carlos Urrego / Gerente de País",
+        "MemberSince": "11/01/2020",
+        "Membership": "Bronze",
+        "logo": "https://top500.co.za/wp-content/uploads/2019/07/altech_alcom_radio_distributors_logo-300x300.jpg"
+    }
+]

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231 - Dynamic Web fundamentals | Leonard Luyinga</title>
+    <meta name="description" content="This is Luyinga's WDD231 Directory Page">
+    <meta name="author" content="Leonard Luyinga">
+    <meta property="og:description" content="This is the Directory page for Leonard Luyinga's web design course.">
+    <meta property="og:image" content="images/rsz_luhinga_2.jpg">
+    <meta property="og:title" content="Luyinga Lumbae - WDD231 - Web Frontend Development 1">
+    <meta property="og:url" content="https://www.churchofjesuschrist.org/study/scriptures?lang=eng&platform=web">
+
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/directory.css" />
+
+    <script type="module" src="./scripts/app.js"></script>
+    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/common.mjs" defer></script>
+
+
+    <link rel="icon" href="images/favicon-main-modified.ico" sizes="48x48" type="image/ico">
+    <script src="https://kit.fontawesome.com/e0a574ddb0.js" crossorigin="anonymous"></script>
+</head>
+<body id="directory-page">
+     <header>
+        <nav>
+            <div class="box-logo-header">
+                <img class="logo-chamber" src="images/logo4.webp"
+                    alt="Logo Chamber" />
+                <h1 class="nameHeader">Cape Town City<br>Chamber of Ecomerces</h1>
+                <button name="navigation button" id="menu" aria-label="Toggle menu"></button>
+            </div>
+            <ul>
+                <li><a class="nav-a " href="./index.html">Home</a></li>
+                <li><a class="nav-a " href="./discover.html">Discover</a></li>
+                <li><a class="nav-a " href="./directory.html">Directory</a></li>
+                <li><a class="nav-a " href="./join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="Main-title">Directory</h2>
+        <div class="button-box">
+            <button title="List view" class='mybtn activebtn' id="list-view-btn"><i class='fas fa-list'></i></button>
+            <button title="Grid view" class='mybtn' id="grid-view-btn"><i class='fas fa-border-all'></i></button>
+        </div>
+
+        <div id="directory-box"></div>
+    </main>
+    <footer>
+        <div class="social">
+            <img src="images/img-in2.webp"  alt="LinkedIn Icon">
+            <img src="images/img-github2.webp"  alt="GitHub Icon">
+            <img src="images/img-x2.webp"  alt="X Icon">
+        </div>
+        <p>&copy;<span id="currentyear"></span>🤢Leonard Luyinga🤢 South Africa</p>
+        <p id="lastmodified"></p>
+    </footer>
+</body>
+</html>
