@@ -51,7 +51,7 @@ function displayResults(data) {
         const iconCode = data.weather[0].icon;
         const description = data.weather[0].description;
         
-        img.setAttribute('src', `https://openweathermap.org/img/wn/${iconCode}@2x.png`);
+        img.setAttribute('src', `https://openweathermap.org/img/wn/${iconCode}.png`);
         img.setAttribute('alt', description);
         img.setAttribute('id', 'weather-icon');
         
