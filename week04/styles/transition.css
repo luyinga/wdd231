@@ -1,0 +1,34 @@
+/* Now use the transition property to create the following animation which activates when the user hovers over the image. */
+.loader-t {
+    margin: 2rem;
+    width: 50px; /* width of the loader */
+    height: 50px; /* height of the loader */
+    border: 5px solid transparent; /* border width */
+    border-color: #999 transparent #999 transparent; /* colors for the border */
+    border-radius: 50%; /* make it a round */
+    animation: spin 1.5s linear infinite; /* spin animation with duration continuous */
+    box-shadow: 0 0 1rem rgb(0 0 255 / 40%); /* blueis shadow effect on round div */
+}
+.loader-t::after {
+    content : '🏐';
+    position : absolute;
+    top: 50%;
+    left: 50%;
+}    
+
+.loader-t {
+    /* The only thing that changed was using transition versus animation */
+    transform: spin 1.5s linear infinite; /* spin animation with duration continuous */
+}
+.loader-t::after {
+    /* The only thing that changed was using transition versus animation and the size and visibility start */
+    transform: translate(-50%, -50%) scale(0); /* scale to 1.25 */
+    transition: transform 1.5s ease-in-out ; /* pulse animation with duration continuous */
+    font-size: 2rem;
+}
+.loader-t:hover {
+    transform: rotate(360 deg); /* rotate on hover */
+}
+.loader-t:hover::after {
+    transform: translate(-50%, -50%) scale(1.5); /* scale on hover */
+}
