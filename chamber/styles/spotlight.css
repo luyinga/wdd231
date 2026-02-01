@@ -1,0 +1,41 @@
+/* Spotlights */
+    .spotlights-main-box {
+        grid-row: 3;
+        grid-column: 2;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        gap: 20px;
+        max-width: 100%;
+    }
+
+    .spot-card-01 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .spot-card-02 {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .spot-card-03 {
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    .spot-card-01,
+    .spot-card-02,
+    .spot-card-03 {
+        width: 250px;
+        height: 320px;
+        padding: 20px;
+        margin: 0;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px var(--onyx);
+    }
