@@ -298,4 +298,9 @@
     .card1, .card2, .card3 {
         border: 1px solid rgb(16, 46, 216);
     }
+    #hero-box {
+        width: 100%;
+        height: auto;
+    }
+    
 }
