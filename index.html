@@ -17,49 +17,75 @@
     <script src="scripts/navigation.js" defer></script>
 </head>
 <body>
-    <header>
-        <img src="images/logo-img2.png"  alt="Site Logo">
-        <span>Course Home Page</span>
-        <button type="button" id="menu"></button> 
-        <nav class="nav-container">
-          <ul> 
-            <li><a href="index.html">Home</a></li>
-            <li><a href="chamber/index.html">Chamber Project</a></li> 
-            <li><a href="week06/final-project.html">Final</a></li> 
-          </ul> 
-        </nav>
+     <header>
+        <div class="header-bar">
+            <span id="course-title">WDD 231 - Web Frontend Development 1 </span>
+            <nav class="navigation">
+                <button id="menu" title="Menu"></button>
+                
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="chamber/index.html" target="_blank">Chamber Project</a></li>
+                    <li><a href="project/siteplan.html" target="_blank">Final Project</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
+    <main class="container">
         <h1>Home</h1>
-        <section class="sec1">
-            <h2>About Me</h2>
-            <p>Hello! My name is Luyinga Lumbale Leonard and I am from Kinshasa D.R.Congo I enjoy reading
-               and play football. I am actually living in Cape Town. I am married and have two children.
-               I am doing web design because I want to create responsive websites. I am a returned missionnary
-               I hope working in a company as a front-end developper in Cape Town. I like going out, my favorite 
-               food is chicken gatsby. I like to ride a bike, I like the gospel of Jesus-Christ because 
-               it shows me the way to go to our heavenly father because in john 3:16 Jesus said For God so loved 
-               the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, 
-               but have everlasting life.   </p>
+        <section class="container-grid">
+
+            <!-- Left Card -->
+            <section class="card1">
+                <h2 class="card-title">About Me</h2>
+
+                <div class="about">
+                    <div class="about-text">
+                        <p>
+                            Hello! My name is <strong>Leonard luyinga</strong>, and I am a dedicated student at BYU-Pathway. I am
+                            passionate about web development and eager to learn more about creating dynamic and engaging websites.
+                            In my free time, I enjoy playing the piano, traveling, and exploring new technologies.
+                            <br><br><i>I am also a return missionnary of the Church of Jesus-Christ of Latter Days Saints </i>
+                            <br> <br>Studying with BYU has strengthened my programming foundation through courses like
+                            Programming Building Blocks, Functions, Classes and Web Development etc. I am now looking for internship opportunities or
+                            junior developer roles to apply and grow these skills.
+                        </p>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Right Card -->
+            <section class="card2">
+                <h2 class="card-title">Image</h2>
+                <div class="photo">
+                    <div class="about-photo">
+                        <img src="images/rsz_luhinga_2.jpg" alt="Luyinga's portrait">
+                    </div>
+                </div>
+            </section>
+
         </section>
-        <section class="sec2">
-            <h2>Student Photo</h2>
-            <img src="images/rsz_luhinga_2.jpg" alt="Student Photo">    
+
+        <section class="card3">
+            <h2 class="card-title">Web Certificate Courses</h2>
+            <div class="filters">
+                <button id="all-btn">All Courses</button>
+                <button id="cse-btn">CSE Courses</button>
+                <button id="wdd-btn">WDD Courses</button>
+                <button id="itm-btn">ITM Courses</button>
+            </div>
+
+            <div id="course-list"></div>
+
+            <div id="total-credits"></div>
         </section>
-        <section class="sec3">
-            <h2>Web Certificate Courses</h2>
-          <div class="courses">
-            <p>ALL</p>
-            <p>CSE</p>
-            <p>WDD</p>
-            <p>WDD130</p>
-            <p>WDD131</p>
-            <p>WDD231</p>
-          </di> 
-        </section>
+        <dialog id="course-details">
+
+        </dialog>
     </main>
     <footer>
-        <p>The total credit listed above is 6</p>
         <div class="social">
             <img src="images/img-in.PNG" width="60" height="60" alt="LinkedIn Icon">
             <img src="images/img-github.PNG" width="60" height="60" alt="GitHub Icon">
