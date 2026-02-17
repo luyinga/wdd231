@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cape Town Chamber of Commerce | Discover</title>
+    <meta name="description" content="This is Luyinga's WDD231 Discover Page">
+    <meta name="author" content="Leonard Luyinga">
+    <meta property="og:description" content="This is the Discover page for Leonard Luyinga's web design course Take a virtual tour of Cape Town's top landmarks, hidden gems, and local business hubs. Experience the tourism and commerce.">
+    <meta property="og:image" content="https://luyinga.github.io/wdd231/projects/images/city7-9.webp">
+    <meta property="og:title" content="Explore | Elsides River Homeless ">
+    <meta property="og:url" content="https://luyinga.github.io/wdd231/projects/explore.html">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/explore.css" />
+    <link rel="icon" href="favicon.ico" >
+
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/discover.js" type="module"></script>
+
+
+
+    <link rel="icon" href="images/favicon-main-modified.ico" sizes="48x48" type="image/ico">
+    <script src="https://kit.fontawesome.com/e0a574ddb0.js" crossorigin="anonymous"></script>
+</head>
+<body id="join-page">
+     <header>
+        <nav class="navigation">
+            <div class="box-logo-header">
+                <img class="logo-chamber" src="images/logo-img2.png"
+                    alt="Logo Chamber" />
+                <h1 class="nameHeader">Elsies River<br>Homeless</h1>
+                <button name="navigation button" id="menu" aria-label="Toggle menu"></button>
+            </div>
+            <ul>
+                <li><a class="nav-a " href="./index.html">Home</a></li>
+                <li><a class="nav-a " href="./explore.html">Explore</a></li>
+                <li><a class="nav-a " href="./join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+     <main class="main-style">
+          <section class="hero-join">
+        <img 
+            src="images/hero-img3.webp" 
+            alt="image of Elsies River homeless" 
+            class="hero-image">
+        <div class="hero-overlay"></div>
+        <span>Join our mission to equip people with skills to overcome homelessness</span>
+    </section>
+    <h4>Homeless</h4>
+    <section class="people">
+        <div class="homless">
+            <p class="about-homeless">Imagine waking up outside on the cold ground, instead of in a warm cozy bed. Even worse, imagine rummaging through a trash
+        can for your next meal not knowing what you will find. People that are homeless know these images all too well. Being homeless
+        is a lifestyle that many people face today, but your community can help. Helping the homeless out can be an easy task, but
+        also a rewarding task as well. Anything given to homeless people is appreciated. From a quarter to a bottle of water, these 
+        are items that people need to survive. According to statistics, nearly 200,000 people in South Africa are homeless.
+        This ranges from people with disabilities to our Veterans as well. 10% of the population are considered chronically homeless. 
+        This occurs when an individual has a disability and has been homeless for a year or longer. As for our Veterans, nearly 5% of 
+        them fit into the homeless category and the number continues to rise. It is uncomforting to think that the person you pass on 
+        the street could have been a man or women who fought for the freedom of this country a year, or even months earlier.
+        Don’t treat the homeless as if they were invisible. Acknowledge them by speaking and showing them respect regardless of what
+        they may look like. There are different ways to help like donating non- perishable items, clothing, coats, blankets, working 
+        in food banks, getting job fairs to visit the community or even just passing out a bottle of water. We could also provide
+        care packages that include shampoo, body wash, deodorant, a hairbrush, toothpaste, a toothbrush and five dollars for them 
+        to buy something of their choice or even just treating them to a meal. These are just few of many items that we could donate
+        to help the shelters.</p>
+        </div>
+        <div class="img-wrapper">
+            <div class="about-picture">
+              <img src="images/people-1.webp"  alt="People in the mountain">
+            </div>
+            <div class="about-picture">
+              <img src="images/people-2.webp"  alt="People on the street">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div id="discoverGrid" class="grid-places"></div>
+    </section>
+    
+    <dialog id="cardModal">
+        <div id="modalContent">
+        <h3 id="modalTitle">Homeless detail</h3>
+        <figure>
+            <img id="modalImage" src="images/Franschhoek_wine_1.webp" alt="Franschhoek Wine" loading="lazy">
+        </figure>
+        <p id="modalDescrib"></p>
+        <button id="closeModal">Close</button>
+    </div>
+    </dialog>
+
+    <div id="visitBanner" class="visit-banner">
+        <span id="visitText"></span>
+        <button id="visitClose">&times;</button>
+    </div>
+     </main>
+
+    <footer>
+        <div class="social">
+            <img src="images/img-in2.webp"  alt="LinkedIn Icon">
+            <img src="images/img-github2.webp"  alt="GitHub Icon">
+            <img src="images/img-x2.webp"  alt="X Icon">
+        </div>
+        <p>&copy;<span id="currentyear"></span>🤢Leonard Luyinga🤢 South Africa</p>
+        <p id="lastmodified"></p>
+    </footer>
+</body>
+</html>
