@@ -30,7 +30,7 @@ body {
     font-family: var(--font);
     margin: 1rem 0;
     color: var(--ink);
-    background: var(--bg);
+    background: rgb(65, 65, 83);
     line-height: 1.6;
 }
 
@@ -177,6 +177,9 @@ body.home {
     height: auto;
     display: block;
     margin: 0 auto;
+}
+.photo {
+    margin-top: 2rem;
 }
 
 /* Course List & Filters */
