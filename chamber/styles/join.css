@@ -73,14 +73,11 @@ select {
     margin: 20px;
     border-radius: 5px;
     box-shadow: 0 3px 5px var(--paragraph-background-color);
+    animation: animate 5s ease infinite;
 }
 
 .card h3 {
     color: var(--king-kong);
-}
-
-.card {
-    animation: animate 5s ease infinite;
 }
 
 .card:hover {
